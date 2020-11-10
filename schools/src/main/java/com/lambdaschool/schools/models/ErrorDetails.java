@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class ErrorDetail {
+public class ErrorDetails {
     private String title;
     private int status;
     private String detail;
@@ -12,7 +12,7 @@ public class ErrorDetail {
     private String developerMessage;
     private List<ValidationError> errors = new ArrayList<>();
 
-    public ErrorDetail(){
+    public ErrorDetails(){
 
     }
 
